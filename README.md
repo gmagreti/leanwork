@@ -2,52 +2,19 @@
 
 ## Estrutura do projeto criada com npx create-react-app --template typescript
 
-## Teste (Front-end)
 
-## Teste para candidatos à vaga de desenvolvedor Front-end na Leanwork.
+## Inicialiar a aplicação.
+    
+    Clonar repositorio
+    Com o projeto clonado e aberto no seu  visual studio code, rode npm install para instalar todas as dependencias  do projeto.
+    Após a conclusão da instalação rode yarn start, ele vai rodar na porta localhost:3000
+    Está pronto para abri-lo no navegador!
+    
+## Solucões aplicadas ao projeto.
 
-## O Desafio
-
-## Seu objetivo é criar um simples app que deve conter duas páginas, uma que exibe um formulário com os campos abaixo, e outra que liste os dados cadastrados.
-
-## Instruções:
-
-    Deve ser possível criar, listar e excluir os dados cadastrados pelo formulário;
-    Fazer a persistência dos dados no localStorage ou IndexedDB;
-    Implemente o HTML/CSS da tela com base no layout disponível abaixo;
-    A página deve ser responsiva;
-    Para a interação do formulário utilize preferencialmente angularjs e/ou jQuery;
-
-## Você pode:
-
-    Utilizar bibliotecas css como compass, bourbon, animatecss ou outras;
-    Utilizar componentes do bower;
-
-## O que esperamos:
-
-    Dê suporte a IE10+, Chrome, Safari e Firefox;
-    Padrão de Projeto e boas práticas;
-    Crie um passo a passo de como rodar sua aplicação (Sugestão);
-    Crie uma breve descrição da solução utilizada;
-
-## Plus:
-
-## Guia de estilo
-
-## magem de fundo
-
-## Label
-
-## Input:
-
-## Botão Abilitado:
-
-## Botão Hover:
-
-## Botão Desabilitado:
-
-## Use sua criatividade para criar a página para listar os dados cadastrados
-
-## Instalacoes feitas na aplicacao
-
-yarn styled-components
+    A estrutura da aplicação foi criada com npx create-react-app --template typescript
+    Utilizei a lib styled-components para fazer a estilização da pagina 
+    Utilizei Regex para a formatação das máscaras do CPF e Telefone.
+    A persistência dos dados foi feita no localStorage com o nome '@Leankwork:dados'
+    A maneira que utilizei para mostrar os dados foi a partir da lib react-modal de forma assíncrona, na mesma hora que grava um dado no 
+        localStorage ele ja é carregado quando o modal é acionado
